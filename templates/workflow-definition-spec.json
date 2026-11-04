@@ -9,7 +9,7 @@
   },
   "actions_summary": [
     "Get_Response_Details",
-    "Initialize_Route_Date_PL_Timezone",
+    "Initialize_Route_Date",
     "Parse_15_Stop_Blocks",
     "Filter_Active_Stops",
     "Lookup_Customer_Reference_Map",
