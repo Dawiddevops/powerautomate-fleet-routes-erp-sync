@@ -1,0 +1,38 @@
+{
+  "": "http://json-schema.org/draft-07/schema#",
+  "title": "ERPLogisticsImportCSVFormat",
+  "description": "18-column fixed layout required by Enterprise Logistics ERP batch ingestion engine",
+  "type": "object",
+  "properties": {
+    "columns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": [
+        "ORDER_TYPE",
+        "EXT_DELIVERY_NUM",
+        "DRIVER_CODE",
+        "VEHICLE_REG",
+        "DELIVERY_DATE",
+        "CUSTOMER_REFERENCE",
+        "DELIVERY_REMARK",
+        "SKU_PRO9",
+        "SKU_PRO11",
+        "SKU_PRO33",
+        "SKU_MIX11",
+        "SKU_AUTO_LPG",
+        "SKU_PROP_SPECIAL",
+        "SKU_EMPTY_RET",
+        "PAYMENT_TERMS",
+        "DISPATCH_STATUS",
+        "NOTES"
+      ]
+    },
+    "delimiters": {
+      "column_delimiter": ";",
+      "date_format": "DD/MM/YYYY",
+      "encoding": "windows-1250"
+    }
+  }
+}
