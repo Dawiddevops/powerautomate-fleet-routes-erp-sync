@@ -1,6 +1,6 @@
 {
-  "": "http://json-schema.org/draft-07/schema#",
-  "title": "ERPLogisticsImportCSVFormat",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "EnterpriseERPLogisticsImportFormat",
   "description": "18-column fixed layout required by Enterprise Logistics ERP batch ingestion engine",
   "type": "object",
   "properties": {
@@ -10,23 +10,24 @@
         "type": "string"
       },
       "default": [
-        "ORDER_TYPE",
-        "EXT_DELIVERY_NUM",
+        "TRANSACTION_TYPE",
+        "DISPATCH_ID",
         "DRIVER_CODE",
-        "VEHICLE_REG",
-        "DELIVERY_DATE",
-        "CUSTOMER_REFERENCE",
-        "DELIVERY_REMARK",
-        "SKU_PRO9",
-        "SKU_PRO11",
-        "SKU_PRO33",
-        "SKU_MIX11",
-        "SKU_AUTO_LPG",
-        "SKU_PROP_SPECIAL",
-        "SKU_EMPTY_RET",
-        "PAYMENT_TERMS",
-        "DISPATCH_STATUS",
-        "NOTES"
+        "VEHICLE_IDENTIFIER",
+        "ROUTE_DATE",
+        "CUSTOMER_ACCOUNT_ID",
+        "SPECIAL_INSTRUCTIONS",
+        "COMMODITY_SKU_01",
+        "COMMODITY_SKU_02",
+        "COMMODITY_SKU_03",
+        "COMMODITY_SKU_04",
+        "COMMODITY_SKU_05",
+        "RETURNABLE_CONTAINERS",
+        "SETTLEMENT_TERMS",
+        "DISPATCH_PRIORITY",
+        "AUDIT_TIMESTAMP",
+        "STATUS_CODE",
+        "INTERNAL_REMARKS"
       ]
     },
     "delimiters": {
