@@ -1,0 +1,20 @@
+[
+  {
+    "option_display": "PARTNER-HUB-NORTH - Central Station",
+    "customer_account_id": "ACC-849201",
+    "authorized_skus": [
+      "COMMODITY_SKU_01",
+      "COMMODITY_SKU_02",
+      "RETURNABLE_CONTAINERS"
+    ]
+  },
+  {
+    "option_display": "DISTRIBUTOR-WEST - Regional Depot",
+    "customer_account_id": "ACC-712944",
+    "authorized_skus": [
+      "COMMODITY_SKU_01",
+      "COMMODITY_SKU_03",
+      "COMMODITY_SKU_05"
+    ]
+  }
+]
