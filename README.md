@@ -5,6 +5,7 @@
 [![ERP Integration](https://img.shields.io/badge/ERP-Batch_CSV_Ingestion-green)](#architecture--data-flow)
 [![Status](https://img.shields.io/badge/Status-Production_Ready-brightgreen)](#)
 
+[![Architecture & ADRs](https://img.shields.io/badge/Architecture-ADRs_%26_Design_Specs-blue?logo=mermaid&logoColor=white)](ARCHITECTURE.md)
 > **Enterprise Case Study**: An automated pre-dispatch route reporting and ERP data pipeline for commercial distribution fleets. Replaces manual driver phone calls and Excel re-keying with a mobile-optimized intake form and an automated Power Automate Cloud Flow that validates catalog indexes, checks daily contract pricing, generates 18-column ERP-compliant CSV import batches, and routes dispatch notifications to central logistics planners.
 
 ---
